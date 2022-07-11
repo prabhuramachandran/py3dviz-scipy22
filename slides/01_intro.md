@@ -5,7 +5,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.13.7
+      jupytext_version: 1.14.0
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -36,7 +36,7 @@ jupyter:
 
 - Python library or standalone application
 - VTK based, lower-level OpenGL/WebGL based
-- Desktop based or Jupyter notebook based
+- Desktop-based or Web-based
 - Client-side or server-side rendering
 - Mature or experimental
 - Optimal use of hardware acceleration etc.
@@ -49,7 +49,7 @@ jupyter:
 
 - VTK based tools: Mayavi and itkwidgets
 
-- Fully open source: BSD license
+- Fully open source: BSD license, Apache 2.0 license
 
 - Mayavi
    - Mature (first in 2001, rewritten in 2006)
@@ -60,9 +60,12 @@ jupyter:
    - Problem: busy (lazy?) lead developer
 
 - itkwidgets
-   - XXX
+   - First release 2018, rewrite pre-releases currently available
    - Excellent client-side support
-
+   - Current: Jupyter, ipywidgets
+   - Problem: interactive 3D data exploration
+   - Future: Generic web platform support, flexible rendering, customizable UI
+   - Accessible, flexible, sustainable
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
@@ -79,7 +82,11 @@ jupyter:
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## itkwidgets features
 
-
+- Visualize 2D and 3D images, point sets, and geometry, e.g. meshes, in Jupyter
+- Integrates with other Python packages, e.g. NumPy, Dask, vtk-based
+- Exquisite volume rendering
+- Label image segmentation 2D and 3D rendering
+- Innovative, powerful opacity transfer function / window / level widget
 <!-- #endregion -->
 
 
@@ -96,5 +103,5 @@ jupyter:
   - Excellent for client side
   - Powerful widget support
   - Plays well with everyone
-
+  - Imaging focus
 <!-- #endregion -->
