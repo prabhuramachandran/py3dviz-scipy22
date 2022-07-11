@@ -92,6 +92,7 @@ $ pip install -U mayavi itkwidgets
 Try the following:
 
 ```
+$ pip install ipython
 $ ipython
 
 In []: %gui qt
