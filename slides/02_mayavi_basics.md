@@ -101,6 +101,23 @@ Make sure you have the following code first
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
+## What if the Qt version doesn't work?
+
+- If you are stuck and wish to follow along, try the following
+
+1. Restart this notebook, do not run the previous `%gui qt` cell
+2. Run the following:
+
+<!-- #endregion -->
+
+```python
+import mlab
+mlab.init_notebook()
+```
+Continue with the tutorial
+
+
+<!-- #region slideshow={"slide_type": "slide"} -->
 ## Using `mlab`
 
 <!-- #endregion -->
