@@ -22,6 +22,15 @@ jupyter:
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
+## Outline
+
+- **Using Mayavi's `mlab`** $\Longleftarrow$
+- Simple Animation
+
+<!-- #endregion -->
+
+
+<!-- #region slideshow={"slide_type": "slide"} -->
 ## Getting started with `mlab`
 
 <!-- #endregion -->
@@ -563,6 +572,15 @@ mlab.flow(x, y, z, u, v, w)
 print(mlab.view())
 mlab.view(azimuth=60, elevation=90, distance=100, focalpoint=None)
 ```
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+## Outline
+
+- Using Mayavi's `mlab`
+- **Simple Animation** $\Longleftarrow$
+
+<!-- #endregion -->
+
 
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## Animation
