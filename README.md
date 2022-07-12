@@ -5,8 +5,8 @@ by Prabhu Ramachandran and Matt McCormick.
 
 
 This tutorial will introduce the participants to 3D visualization using tools
-that are written with rendering support from VTK library (https://vtk.org/).
-We start the workshop with Mayavi (https://github.com/enthought/mayavi) then
+that are written with rendering support from [VTK library](https://vtk.org/).
+We start the workshop with [Mayavi](https://github.com/enthought/mayavi) then
 some [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets)
 Mayavi is an Open Source, Python package for general purpose 3D visualization
 and provides a very Python-friendly API. itkwidgets are interactive Jupyter
@@ -39,9 +39,8 @@ require that you have Mayavi and itkwidgets installed.
 
 ### Installation with pip
 
-You will need Python versions < 3.10 if you are intending to install via pip
-as VTK wheels do not exist for Python 3.10.x. If you must, you will need to
-use conda.
+You will need **Python versions < 3.10** if you are intending to install via pip
+as VTK wheels do not exist for Python 3.10.x. You can also install via conda / mamba.
 
 Installation should be relatively simple
 
@@ -72,8 +71,8 @@ $ conda activate py3dviz  # or source activate mayavi
 $ conda install -c conda-forge numpy jupyter ipywidgets ipyevents mayavi itkwidgets
 ```
 
-As of June 16th, 2022, this will install python-3.8.13, Mayavi-4.7.4 and
-itkwidgets-0.32.
+As of July 12th, 2022, this will install python-3.8.13, Mayavi-4.8.0 and
+itkwidgets-0.32.2.
 
 
 In case we have a new release after these which may be necessary as the latest
