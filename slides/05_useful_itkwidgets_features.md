@@ -190,6 +190,8 @@ However, equality important legs are:
 <!-- #region slideshow={"slide_type": "slide"} -->
 ### Try itkwidgets with JupyterLite!
 
+Available in the itkwidgets-1.X pre-release.
+
 <a href="https://itkwidgets.readthedocs.io/en/latest/_static/retro/notebooks/?path=Hello3DWorld.ipynb" target="_blank">
 
 ![Jupyterlite](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)
@@ -214,4 +216,64 @@ However, equality important legs are:
 
 - ***TensorBoard* and deep learning** $\Longleftarrow$
 
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### TensorBoardPlugin3D - 3D Tensor Visualization
+
+
+**TensorBoardPlugin3D** is an open-source *TensorBoard* plugin that supports
+visualizing 3D output within the TensorBoard application, JupyterLab,
+Google Colab, and SageMaker.
+
+TensorBoardPlugin3D is built on the same technology as itkwidgets. However, the tool is targetted towards **training deep learning neural networks** with *tensorflow* or *pytorch*, for example.
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+Install the [PyPI package](https://pypi.python.org/pypi/tensorboard-plugin-3d) with:
+
+```sh
+pip install tensorboard-plugin-3d
+```
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+## MONAI examples
+
+![MONAI](https://monai.io/assets/img/MONAI-logo_color_full.png)
+
+### Medical Open Network for Artificial Intelligence
+
+The Spleen Segmentation 3D tutorial shows how to integrate [MONAI](https://monai.io/) into an existing PyTorch medical DL program and demonstrates using TensorBoardPlugin3D to view an image with a label to show the input data (shown in the first image) or to compare the model output with the input.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KitwareMedical/tensorboard-plugin-3d/blob/main/demo/notebook/cached_spleen_segmentation_3d.ipynb)
+![Spleen Image with Label](https://github.com/KitwareMedical/tensorboard-plugin-3d/blob/main/docs/images/spleen_with_label.png?raw=true)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+## MONAI examples
+
+![MONAI](https://monai.io/assets/img/MONAI-logo_color_full.png)
+
+### Medical Open Network for Artificial Intelligence
+
+The Spleen Segmentation 3D tutorial shows how to integrate [MONAI](https://monai.io/) into an existing PyTorch medical DL program and demonstrates using TensorBoardPlugin3D to view an image with a label to show the input data (shown in the first image) or to compare the model output with the input.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KitwareMedical/tensorboard-plugin-3d/blob/main/demo/notebook/cached_spleen_segmentation_3d.ipynb)
+![Spleen Output](https://github.com/KitwareMedical/tensorboard-plugin-3d/blob/main/docs/images/label_with_output.gif?raw=true)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+## MONAI examples
+
+![MONAI](https://monai.io/assets/img/MONAI-logo_color_full.png)
+
+### Medical Open Network for Artificial Intelligence
+The UNet Segmentation 3D Ignite notebook provides a simple, fast-running notebook with demo data. If you're looking for a quick way to get started and see the plugin in action this is a great place to start. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KitwareMedical/tensorboard-plugin-3d/blob/main/demo/notebook/unet_segmentation_3d_ignite.ipynb)
+![UNet Output](https://github.com/KitwareMedical/tensorboard-plugin-3d/blob/main/docs/images/unet.gif?raw=true)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+See the [tensorboard-plugin-3d documentation](https://tensorboardplugin3d.readthedocs.io/en/latest/)
+for a guide on getting started.
 <!-- #endregion -->
