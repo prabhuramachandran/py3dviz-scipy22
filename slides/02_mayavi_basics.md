@@ -264,6 +264,45 @@ mlab.contour_surf(x, y, z)
 
 Assumes the points are rectilinear
 
+<!-- #region slideshow={"slide_type": "slide"} -->
+## Interlude: mayavi pipleine
+
+- Notice the pipeline on the UI
+- Somewhat mirrors VTK's data flow pipleine
+- Can manipulate pipeline on the UI
+- Can do the same with scripting
+
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+## Interlude: `mlab.pipeline`
+
+- `mlab.surf` and  the like are high-level functions
+- `mlab.pipeline` provides more fine-grained control
+- Quick example
+
+<!-- #endregion -->
+
+```python
+mlab.surf(x, y, z)
+```
+is equivalent to
+
+```python
+src = mlab.pipeline.array2d_source(x, y, z)
+warp = mlab.pipeline.warp_scalar(src)
+normals = mlab.pipeline.poly_data_normals(warp)
+surf = mlab.pipeline.surface(normals)
+```
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+## `mlab.pipeline`
+
+- Can be used for more sophisticated plots
+
+
+<!-- #endregion -->
+
 
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## 2D data: `mlab.mesh`
