@@ -66,9 +66,9 @@ following:
 To install Mayavi and itkwidgets with conda try the following:
 
 ```
-$ conda create -n py3dviz python=3.8
-$ conda activate py3dviz  # or source activate mayavi
-$ conda install -c conda-forge numpy jupyter ipywidgets ipyevents mayavi itkwidgets
+conda create -n py3dviz python=3.8
+conda activate py3dviz 
+conda install -c conda-forge numpy jupyter ipywidgets ipyevents mayavi itkwidgets
 ```
 
 As of July 12th, 2022, this will install python-3.8.13, Mayavi-4.8.0 and
