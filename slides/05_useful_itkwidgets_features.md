@@ -26,7 +26,7 @@ jupyter:
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## Outline
 
-- **`itkwidgets` noteboook backend for `mayavi`** $\Longleftarrow$
+- **`itkwidgets` notebook backend for `mayavi`** $\Longleftarrow$
 
 - `itkwidgets` on *JupyterLite*
 
@@ -109,7 +109,7 @@ mlab.test_contour3d()
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## Outline
 
-- `itkwidgets` noteboook backend for `mayavi`
+- `itkwidgets` notebook backend for `mayavi`
 
 - **`itkwidgets` on *JupyterLite*** $\Longleftarrow$
 
@@ -210,7 +210,7 @@ Available in the itkwidgets-1.X pre-release.
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## Outline
 
-- `itkwidgets` noteboook backend for `mayavi`
+- `itkwidgets` notebook backend for `mayavi`
 
 - `itkwidgets` on *JupyterLite*
 
