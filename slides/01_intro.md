@@ -57,7 +57,7 @@ jupyter:
    - Full-fledged UI
    - Easy to build UIs
    - Basic jupyter notebook support
-   - Problem: busy (lazy?) lead developer
+   - Problem: busy lead developer
 
 - itkwidgets
    - First release 2018, rewrite pre-releases currently available
