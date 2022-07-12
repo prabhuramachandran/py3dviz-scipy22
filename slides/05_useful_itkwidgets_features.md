@@ -118,6 +118,94 @@ mlab.test_contour3d()
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
+### JupyterLite
+
+![JupyterLite](https://jupyterlite.readthedocs.io/en/latest/_static/wordmark.svg)
+
+[JupyterLite](https://jupyterlite.readthedocs.io/en/latest/) is a JupyterLab distribution that **runs entirely in the browser** built from the ground-up using JupyterLab components and extensions.
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+![Pyodide](https://pyodide.org/en/stable/_static/pyodide-logo.png)
+
+Example kernels that can be run in JupyterLite:
+    
+- [p5.js](https://p5js.org/): *a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!*
+- JavaScript: a basic JavaScript kernel
+- [Pyodide](https://pyodide.org/en/stable/): Pyodide is a Python distribution for the browser and Node.js based on WebAssembly
+- [xeus-python](https://github.com/jupyterlite/xeus-python-kernel): The xeus-python Python kernel for JupyterLite running in the browser
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### Reproducibility Three-legged Stool
+
+![reproducibility stool](./MEDIA/reproducibility_stool/reproducibility_stool.png)
+
+We can think of **reproducibility**, the **core of the scientific method**, as a *three-legged stool* held up by equally important legs.
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### Reproducibility Three-legged Stool - Open Science
+
+![reproducibility stool](./MEDIA/reproducibility_stool/reproducibility_stool_open_science.png)
+
+One of those legs is **Open Science**, the availability of:
+
+- Code
+- Data
+- Narratives
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### Reproducibility Three-legged Stool - Accessibility, Sustainability
+
+![reproducibility stool](./MEDIA/reproducibility_stool/reproducibility_stool_accessibility_sustainability.png)
+
+However, equality important legs are:
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+#### Accessibility
+
+- Is the code written in an easy-to-understand language, like **Python**?
+- Is the data in an **open standard format** that can be easily parsed?
+- Is possible to access the **compute environment dependencies**?
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### Reproducibility Three-legged Stool - Accessibility, Sustainability
+
+![reproducibility stool](./MEDIA/reproducibility_stool/reproducibility_stool_accessibility_sustainability.png)
+
+However, equality important legs are:
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+#### Sustainability
+
+- Will the data, code, compute environment be available for a **long period of time**?
+- Does reproducibilty require **minimal resources**?
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### Try itkwidgets with JupyterLite!
+
+<a href="https://itkwidgets.readthedocs.io/en/latest/_static/retro/notebooks/?path=Hello3DWorld.ipynb" target="_blank">
+
+![Jupyterlite](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)
+
+![Hello3DWorld](./MEDIA/Hello3DWorldJupyterLite.gif)
+</a>
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+### Exercise: Save the notebook and a file and reload the page
+
+- Do the changes persist?
+- Where are they stored?
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
 ## Outline
 
 - `itkwidgets` noteboook backend for `mayavi`
@@ -125,40 +213,5 @@ mlab.test_contour3d()
 - `itkwidgets` on *JupyterLite*
 
 - ***TensorBoard* and deep learning** $\Longleftarrow$
-
-<!-- #endregion -->
-
-<!-- #region slideshow={"slide_type": "slide"} -->
-## Demo of script recording
-
-
-
-<!-- #endregion -->
-
-<!-- #region slideshow={"slide_type": "slide"} -->
-## Custom UIs
-
-<center>
-<img width="90%" src="MEDIA/m2/lorenz_ui1.png"/>
-</center>
-
-<!-- #endregion -->
-
-<!-- #region slideshow={"slide_type": "slide"} -->
-## Custom UIs
-
-- 130 loc for the UI
-- Uses traits/traitsui
-- Declarative UI
-- See ETS tutorial this afternoon
-
-<!-- #endregion -->
-
-<!-- #region slideshow={"slide_type": "slide"} -->
-## Notebook support
-
-- Both server-side and client side possible
-- Use `mlab.init_notebook`
-- Different backends: `'ipy'` or `'itk'`
 
 <!-- #endregion -->
