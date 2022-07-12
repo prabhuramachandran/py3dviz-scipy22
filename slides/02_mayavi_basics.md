@@ -111,7 +111,7 @@ Make sure you have the following code first
 <!-- #endregion -->
 
 ```python
-import mlab
+from mayavi import mlab
 mlab.init_notebook()
 ```
 Continue with the tutorial
